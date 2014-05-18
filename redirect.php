@@ -14,7 +14,7 @@
 	$protocols = [
 		'http://',
 		'https://'
-	]
+	];
 	$defaultProtocol = $protocols[0];
 
 
