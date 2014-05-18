@@ -30,8 +30,11 @@ div.about a {
 	text-decoration: none;
 }
 a, a:visited {
-	color: #428BCA;
+	color: #369;
+	font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
 }
 a:hover, a:focus, a:active {
-	color: #2A6496;
+	color: #036;
+	text-decoration: underline;
 }
