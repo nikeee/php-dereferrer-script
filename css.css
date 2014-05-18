@@ -5,12 +5,14 @@ body {
 	width: 900px;
 	text-align: center;
 }
-h1, p.capslock {
-	text-transform: uppercase;
+h1, p {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: #262B2E;
 	padding: 0;
 	margin: 0;
+}
+p.capslock {
+	text-transform: uppercase;
 }
 h1 {
 	font-size: 120px;
