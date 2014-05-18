@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="refresh" content="0; URL=<?php echo $url; ?>">
+		<link rel="stylesheet" type="text/css" href="css.css">
 		<title><?php echo $url; ?> &hellip;</title>
 	</head>
 	<body>
