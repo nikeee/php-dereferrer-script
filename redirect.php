@@ -7,6 +7,7 @@
 	</head>
 	<body>
 	<div align="center">
+		<h1>LOLREDIREECT</h1>
 		<p><?php echo $url; ?> &hellip;</p>
 	</div>
 	</body>
