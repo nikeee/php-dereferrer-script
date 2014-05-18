@@ -7,6 +7,7 @@
 	</head>
 	<body>
 		<h1>Dereferrer Service</h1>
-		<p>This is a private dereferrer service.</p>
+		<p class="capslock">This is a private dereferrer service.</p>
+		<p>Handle damit.</p>
 	</body>
 </html>
