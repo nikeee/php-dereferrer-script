@@ -10,6 +10,8 @@
  *
  */
 
+require_once 'config.php';
+
 // check if we got an url
 if(($pos = strpos($_SERVER['REQUEST_URI'], '?')) !== false)
 {

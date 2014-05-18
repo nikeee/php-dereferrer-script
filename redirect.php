@@ -1,22 +1,6 @@
 <?php
 
-	function striposarray($haystack, array $needles)
-	{
-		for($i = 0; $i < count($needles); ++$i)
-		{
-			$pos = stripos($haystack, $needles[$i]);
-			if($pos > -1)
-				return $pos;
-		}
-		return -1;
-	}
-
-	$protocols = [
-		'http://',
-		'https://'
-	];
-	$defaultProtocol = $protocols[0];
-
+	require_once 'config.php';
 
 	if(striposarray($url, $protocols) == -1)
 	{
@@ -24,6 +8,12 @@
 	}
 
 	$url = htmlspecialchars($url);
+
+	if(!$htmlRedirect)
+	{
+		header("Location: $url");
+		exit;
+	}
 
 	$anchor = '<a href="' . $url . '">' . $url .  '</a>';
 
