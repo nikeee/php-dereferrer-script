@@ -1,4 +1,29 @@
-<!DOCTYPE html>
+<?php
+
+	function striposarray($haystack, array $needles)
+	{
+		for($i = 0; $i < count($needles); ++$i)
+		{
+			$pos = stripos($haystack, $needles[$i]);
+			if($pos > -1)
+				return $pos;
+		}
+		return -1;
+	}
+
+	$protocols = [
+		'http://',
+		'https://'
+	]
+	$defaultProtocol = $protocols[0];
+
+
+	if(striposarray($url, $protocols) == -1)
+	{
+		$url = $defaultProtocol . ltrim($url, '/');
+	}
+
+?><!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
