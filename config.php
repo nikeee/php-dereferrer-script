@@ -1,6 +1,6 @@
 <?php
 
-	$htmlRedirect = true;
+	$htmlRedirect = false;
 
 	// supported protocols for auto-prefixing
 	$protocols = [
