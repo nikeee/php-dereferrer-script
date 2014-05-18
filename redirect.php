@@ -23,6 +23,8 @@
 		$url = $defaultProtocol . ltrim($url, '/');
 	}
 
+	$anchor = '<a href="' . $url . '">' . $url .  '</a>';
+
 ?><!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -34,7 +36,7 @@
 	<body>
 	<div align="center">
 		<h1>LOLREDIREECT</h1>
-		<p><?php echo $url; ?> &hellip;</p>
+		<p><?php echo $anchor; ?> &hellip;</p>
 	</div>
 	</body>
 </html>
