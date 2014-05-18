@@ -29,3 +29,9 @@ div.about a {
 	color: #ccc;
 	text-decoration: none;
 }
+a, a:visited {
+	color: #428BCA;
+}
+a:hover, a:focus, a:active {
+	color: #2A6496;
+}
