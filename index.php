@@ -4,8 +4,9 @@
  * Dereferring with PHP
  *
  * v0.1 (c) 2011-2013 by Naden Badalgogtapeh <n.b@naden.de>
+ * forked by nikeee
  *
- * http://www.naden.de/blog/derefer-script
+ * https://github.com/nikeee/php-dereferrer-script
  *
  */
 
