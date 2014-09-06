@@ -11,7 +11,7 @@
 
 
 
-	// Don't know where to place this and I don't want a extra file for this.
+	// Don't know where to put this and I don't want an extra file for this.
 	function striposarray($haystack, array $needles)
 	{
 		for($i = 0; $i < count($needles); ++$i)
