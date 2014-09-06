@@ -30,5 +30,3 @@ if(($pos = strpos($_SERVER['REQUEST_URI'], '?')) !== false)
 // else show the splash page
 
 include_once 'splash.php';
-
-?>
