@@ -5,7 +5,7 @@ Run your own dereferring service.
 
 __Installation__
 
-Copy the three php files to any domain directory on your webspace.
+Copy all php and css files to any domain directory on your webspace.
 
 __Using it__
 
