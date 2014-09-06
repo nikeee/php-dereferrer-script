@@ -27,7 +27,7 @@
 	</head>
 	<body>
 	<div align="center">
-		<h1>LOLREDIREECT</h1>
+		<h1>LOLREDIRECT</h1>
 		<p><?php echo $anchor; ?></p>
 		<p>&hellip;</p>
 	</div>
