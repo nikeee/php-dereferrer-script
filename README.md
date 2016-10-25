@@ -1,18 +1,13 @@
-PHP dereferrer script
-===============================
+# PHP dereferrer script
+Run your own dereferring service. This is a hard fork of [naden/php-dereferrer-script](https://github.com/naden/php-dereferrer-script).
 
-Run your own dereferring service.
-
-__Installation__
-
+## Installation
 Copy all php and css files to any domain directory on your webspace.
 
-__Using it__
-
+## Using it
 Add the url you like to derefer to your domain; prefixing it with /?
 
-__Example__
-
-    http://yourdomain.tld/?http://gothere.tld/deep/link
+## Example
+`http://yourdomain.tld/?http://gothere.tld/deep/link`
 
 *For a more detailed explanation have a look at this blogpost [Derefer Script]( http://www.naden.de/blog/derefer-script).*
